@@ -22,6 +22,8 @@ public class Operadores {
         System.out.println("Resto de Divisão Par "+(10%2));
         System.out.println("Resto de Divisão Impar "+(11%2));
 
+        System.out.println("Testando");
+
         System.out.println();
 
     }
