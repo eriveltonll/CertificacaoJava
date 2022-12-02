@@ -1,4 +1,6 @@
-public class RelatorioPendencia {
+package com.erivelton.maratonajava.introducao;
+
+public class Aula02RelatorioPendencia {
 
     public static void main(String[] arqs) {
 
