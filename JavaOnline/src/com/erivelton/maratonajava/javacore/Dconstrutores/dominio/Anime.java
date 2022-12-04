@@ -15,7 +15,7 @@ public class Anime {
          * Para chamar um construtor que está dentro de outro construtor
          * Obrigatoriamente o this() tem que ser a primeira linha de um construtor
          */
-        this(); 
+        this();
         this.nome = nome;
         this.tipo = tipo;
         this.epsodios = epsodios;
