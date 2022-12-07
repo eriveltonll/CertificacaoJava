@@ -17,8 +17,6 @@ public class HerancaTest02 {
         // 8 Bloco de inicialização da sub classe é executado na ordem em que aparece
         // 9 O construtor da sub classe é executado
 
-
-
         Funcionario funcionario = new Funcionario("Elisson");
 
 
