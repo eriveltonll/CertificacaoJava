@@ -1,6 +1,7 @@
 package com.erivelton.maratonajava.javacore.Minterfaces.test;
 
 import com.erivelton.maratonajava.javacore.Minterfaces.dominio.DataBaseLoader;
+import com.erivelton.maratonajava.javacore.Minterfaces.dominio.DataLoader;
 import com.erivelton.maratonajava.javacore.Minterfaces.dominio.FileLoader;
 
 public class DataLoaderTest01 {
@@ -10,6 +11,15 @@ public class DataLoaderTest01 {
 
         dataBaseLoader.load();
         fileLoader.load();
+
+        dataBaseLoader.remove();
+        fileLoader.remove();
+
+        dataBaseLoader.checkPermission();
+        fileLoader.checkPermission();
+
+        DataLoader.retrieveMaxDataSize();
+        DataBaseLoader.retrieveMaxDataSize();
 
     }
 }
