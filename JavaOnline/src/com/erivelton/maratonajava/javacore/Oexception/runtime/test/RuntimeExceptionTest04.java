@@ -24,7 +24,7 @@ public class RuntimeExceptionTest04 {
         }
 
         /**
-         * Outas formas de declarar catch 
+         * Outas formas de declarar catch
          */
 
         try {
@@ -34,6 +34,18 @@ public class RuntimeExceptionTest04 {
         } catch (IOException e) {
                 throw new RuntimeException(e);
         }
+
+        /**
+         * Outas formas de declarar catch
+         */
+        try{
+            throw new RuntimeException();
+        }catch (ArrayIndexOutOfBoundsException  | IllegalArgumentException | ArithmeticException e ) {
+            System.out.println("Dentro do ArrayIndexOutOfBoundsException  | IllegalArgumentException | ArithmeticException");
+        }catch (RuntimeException e ) {
+            System.out.println("Dentro do RuntimeException");
+        }
+
 
     }
     private static void talvezLanceException() throws SQLException, FileNotFoundException, IOException{
